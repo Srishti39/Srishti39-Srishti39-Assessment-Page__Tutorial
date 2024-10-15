@@ -1,0 +1,42 @@
+/* Reset default margins and padding for body */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* Header styling */
+.header {
+    position: relative;
+    width: 100%; /* Full width */
+    background-color: #4b7bec;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid #e6e6e6;
+    box-sizing: border-box; /* Padding is included in width */
+    margin: 0;
+}
+
+/* Header styles for smaller screens */
+@media (max-width: 768px) {
+    .header {
+        padding: 15px;
+        font-size: 18px; /* Adjust font size for mobile */
+    }
+
+    .header-logo {
+        width: 100%;
+        height: auto;
+    }
+
+    .header-title {
+        font-size: 18px;
+    }
+
+    .header-nav {
+        flex-direction: column;
+    }
+}

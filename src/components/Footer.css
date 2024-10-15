@@ -1,0 +1,32 @@
+/* .footer {
+    background-color:darkblue;
+    color:hotpink;
+    text-align: center;
+    padding: 10px 0;
+  }
+   */
+
+   /* Footer styling */
+.footer {
+    background-color: #4b7bec;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+
+  /* Footer styles for mobile */
+@media (max-width: 768px) {
+    .footer {
+      text-align: center;
+      padding: 15px;
+    }
+  }
+  
+  

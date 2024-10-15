@@ -1,0 +1,50 @@
+
+.navbar {
+    width: 200px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    height: 100vh;
+  }
+  
+  /* Styling for each menu item (like buttons) */
+  .menu-item {
+    display: block;
+    width: 100%;
+    padding: 15px 10px;
+    margin-bottom: 15px;
+    background-color: #f2f2f2;
+    border: none;
+    color: #333;
+    text-align: left;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover effect */
+  .menu-item:hover {
+    background-color: #e6e6e6;
+  }
+  
+  /* Active state */
+  .menu-item.active {
+    background-color: #4b7bec;
+    color: white;
+  }
+
+  /* Sidebar styles for mobile screens */
+@media (max-width: 768px) {
+    .navbar {
+      width: 100%;
+      position: relative;
+      padding: 10px;
+    }
+  
+    .navbar-item {
+      display: block; /* Stack menu items vertically */
+      margin: 10px 0;
+    }
+  }
+  
